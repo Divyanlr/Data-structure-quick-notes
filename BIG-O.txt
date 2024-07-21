@@ -1,0 +1,201 @@
+Data structures
+1)Arrays
+    Access: O(1) - Direct access via index.
+    Insertion:
+        End (push): O(1)
+        Beginning (unshift): O(n)
+        Middle (splice): O(n)
+    Deletion:
+        End (pop): O(1)
+        Beginning (shift): O(n)
+        Middle (splice): O(n)
+    Search:
+        Linear Search: O(n)
+        Binary Search (sorted array): O(log n)
+
+2)Objects
+    Access: O(1) - Accessing a value by key.
+    Insertion: O(1)
+    Deletion: O(1)
+    Search: O(n) - Searching for a key or value.
+
+3)Maps
+    Access: O(1)
+    Insertion: O(1)
+    Deletion: O(1)
+    Search: O(n) - Searching for a value.
+
+4)Sets
+    Access: N/A - Sets do not support direct access.
+    Insertion: O(1)
+    Deletion: O(1)
+    Search: O(1) - Checking for existence of an element.
+
+5)Linked Lists
+    Access: O(n) - Requires traversal.
+    Insertion:
+        Beginning: O(1)
+        End (singly linked list): O(n)
+        End (doubly linked list): O(1)
+        Middle: O(n) - Requires traversal.
+    Deletion:
+        Beginning: O(1)
+        End (singly linked list): O(n)
+        End (doubly linked list): O(1)
+        Middle: O(n) - Requires traversal.
+    Search: O(n)
+
+6)Stacks (Implemented with Arrays or Linked Lists)
+    Access: N/A - LIFO structure does not support random access.
+    Insertion (push): O(1)
+    Deletion (pop): O(1)
+    Search: O(n)
+
+7)Queues (Implemented with Arrays or Linked Lists)
+    Access: N/A - FIFO structure does not support random access.
+    Insertion (enqueue): O(1)
+    Deletion (dequeue): O(1)
+    Search: O(n)
+
+8)Trees (Binary Search Tree - Balanced)
+    Access: O(log n)
+    Insertion: O(log n)
+    Deletion: O(log n)
+    Search: O(log n)
+
+9)Graphs (Adjacency List)
+    Access: O(1) - Accessing the list of neighbors.
+    Insertion: O(1) - Adding an edge or vertex.
+    Deletion: O(V + E) - Removing an edge or vertex.
+    Search:
+        Depth-First Search (DFS): O(V + E)
+        Breadth-First Search (BFS): O(V + E)
+
+10)Hash Tables (Similar to Objects and Maps)
+    Access: O(1)
+    Insertion: O(1)
+    Deletion: O(1)
+    Search: O(n) - Searching for a value.
+
+11)Heaps (Binary Heap - Min or Max)
+    Access (min or max element): O(1)
+    Insertion: O(log n)
+    Deletion (min or max element): O(log n)
+    Search: O(n)
+
+
+Sorting Algorithms
+1)Bubble Sort
+
+    Best Case: O(n) (when the array is already sorted)
+    Average Case: O(n^2)
+    Worst Case: O(n^2)
+2)Selection Sort
+
+    Best Case: O(n^2)
+    Average Case: O(n^2)
+    Worst Case: O(n^2)
+3)Insertion Sort
+
+    Best Case: O(n) (when the array is already sorted)
+    Average Case: O(n^2)
+    Worst Case: O(n^2)
+4)Merge Sort
+
+    Best Case: O(n log n)
+    Average Case: O(n log n)
+    Worst Case: O(n log n)
+5)Quick Sort
+
+    Best Case: O(n log n)
+    Average Case: O(n log n)
+    Worst Case: O(n^2) (when the pivot selection is poor, e.g., always the smallest or largest element)
+6)Heap Sort
+
+    Best Case: O(n log n)
+    Average Case: O(n log n)
+    Worst Case: O(n log n)
+7)Radix Sort
+
+    Best Case: O(nk)
+    Average Case: O(nk)
+    Worst Case: O(nk)
+    (where n is the number of elements and k is the number of digits in the largest number)
+8)Counting Sort
+
+    Best Case: O(n + k)
+    Average Case: O(n + k)
+    Worst Case: O(n + k)
+    (where n is the number of elements and k is the range of the input)
+9)Bucket Sort
+
+    Best Case: O(n + k)
+    Average Case: O(n + k)
+    Worst Case: O(n^2) (if all elements are placed in the same bucket)
+    (where n is the number of elements and k is the number of buckets)
+
+Searching Algorithms
+1)Linear Search
+
+    Best Case: O(1) (when the element is the first element)
+    Average Case: O(n)
+    Worst Case: O(n)
+2)Binary Search (requires a sorted array)
+
+    Best Case: O(1) (when the middle element is the target)
+    Average Case: O(log n)
+    Worst Case: O(log n)
+3)Depth-First Search (DFS)
+
+    Time Complexity: O(V + E) (where V is the number of vertices and E is the number of edges)
+4)Breadth-First Search (BFS)
+
+    Time Complexity: O(V + E) (where V is the number of vertices and E is the number of edges)
+
+-----------------------------------------------------------
+Algorithm   	Best Case	    Average Case	Worst Case
+
+Sorting			
+Bubble Sort 	O(n)	        O(n^2)	        O(n^2)
+Selection Sort	O(n^2)	        O(n^2)	        O(n^2)
+Insertion Sort	O(n)	        O(n^2)	        O(n^2)
+Merge Sort	    O(n log n)	    O(n log n)	    O(n log n)
+Quick Sort	    O(n log n)	    O(n log n)	    O(n^2)
+Heap Sort	    O(n log n)	    O(n log n)	    O(n log n)
+Radix Sort	    O(nk)	        O(nk)	        O(nk)
+Counting Sort	O(n + k)	    O(n + k)	    O(n + k)
+Bucket Sort	    O(n + k)	    O(n + k)	    O(n^2)
+Searching			
+Linear Search	O(1)	        O(n)	        O(n)
+Binary Search	O(1)	        O(log n)	    O(log n)
+DFS	O(V + E)	O(V + E)	    O(V + E)
+BFS	O(V + E)	O(V + E)	    O(V + E)
+----------------------------------------------------------------------------------------------------------------
+DataStructure	    Access	            Insertion	                Deletion	                Search
+
+Array	            O(1)	            O(1) (end)<br>O(n)          O(1) (end)<br>O(n)      	O(n)
+                                        (beginning/middle)          (beginning/middle)
+
+Object	            O(1)	            O(1)	                    O(1)	                    O(n)
+
+Map 	            O(1)	            O(1)	                    O(1)	                    O(n)
+
+Set	                N/A	O(1)	        O(1)	                    O(1)
+
+Linked  List        O(n)		        O(1) (beginning)<br>O(n) 	O(1) (beginning)<br>O(n)	O(n)
+                                        (end/middle)                (end/middle)
+
+Stack	            N/A	                O(1)	                    O(1)	                    O(n)
+
+Queue	            N/A	                O(1)	                    O(1)	                    O(n)
+
+Tree(BST)	        O(log n)	        O(log n)	                O(log n)	                O(log n)
+
+Graph               O(1)	            O(1)	                    O(V + E)	                O(V + E) (DFS/BFS)
+(Adjacency List)
+
+Hash Table	        O(1)	            O(1)	                    O(1)	                    O(n)
+
+Heap	            O(1)(min/max  	    O(log n)	                O(log n)(min/max  	        O(n)
+                    min/max element)                                min/max element)
+------------------------------------------------------------------------------------------------------------------

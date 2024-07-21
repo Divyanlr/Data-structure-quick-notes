@@ -1,0 +1,43 @@
+Linear Data Structures
+    1) Arrays:      A collection of elements identified by index or key.
+                    Example: [1, 2, 3, 4, 5]
+    2) Linked Lists:Singly Linked List: Each node points to the next node.
+                    Doubly Linked List: Each node points to both the next and previous nodes.
+                    Circular Linked List: The last node points back to the first node.
+    3) Stacks:      A collection of elements with Last In First Out (LIFO) access.
+                    Example: Call stack in recursion.
+    4) Queues:      A collection of elements with First In First Out (FIFO) access.
+                    Deques: Double-ended queues that allow insertion and deletion at both ends.
+                    Priority Queues: Elements are removed based on priority rather than order of insertion.
+
+Non-Linear Data Structures
+    1) Trees:
+                Binary Tree:    Each node has at most two children.
+                                Binary Search Tree (BST): A binary tree where the left child is less than the parent and the right child is greater.
+                AVL Tree:       A self-balancing binary search tree.
+                Red-Black Tree: Another type of self-balancing binary search tree.
+                Heap:           A complete binary tree used for priority queues.
+                B-Tree:         A self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time.
+                Trie:           A tree-like data structure used to store associative arrays, often used for strings.
+    2) Graphs:  A set of nodes connected by edges.
+                Directed Graph (Digraph):   Edges have a direction.
+                Undirected Graph:           Edges do not have a direction.
+                Weighted Graph:             Edges have weights.
+                Unweighted Graph:           Edges do not have weights.
+
+Hash-based Data Structures
+    1) Hash Table:  Stores data in an associative manner, where each data value has a unique key.
+                    Example: Dictionaries in Python.
+
+Other Data Structures
+    1) Sets:                A collection of distinct elements.
+                            Example: {1, 2, 3, 4, 5}
+    2) Multisets(or Bags):  A collection of elements that can have duplicates.
+    3)Matrices:             Two-dimensional arrays used to represent grid-like structures.
+                            Example: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+Specialized Data Structures
+    1) Bloom Filter:    A space-efficient probabilistic data structure used to test whether an element is a member of a set.
+    2) Skip List:       A data structure that allows fast search within an ordered sequence of elements, with a hierarchy of linked lists.
+
+Each of these data structures has its own strengths and weaknesses, and the choice of which to use depends on the specific requirements of the task at hand.

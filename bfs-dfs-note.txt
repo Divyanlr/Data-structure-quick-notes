@@ -1,0 +1,17 @@
+1) Depth First Traversal - In-Order (inOrder):
+    Traverse the left subtree.
+    Visit the node.
+    Traverse the right subtree.
+
+2) Depth First Traversal - Pre-Order (preOrder):
+    Visit the node.
+    Traverse the left subtree.
+    Traverse the right subtree.
+
+3) Depth First Traversal - Post-Order (postOrder):
+    Traverse the left subtree.
+    Traverse the right subtree.
+    Visit the node.
+
+4) Breadth First Traversal (breadthFirst):
+    Use a queue to traverse nodes level by level, starting from the root.
